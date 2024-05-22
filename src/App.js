@@ -3,7 +3,7 @@ import './App.css'
 import { Box } from '@mui/material'
 //Box is basically a div having some shadings and color
 import { Route, Routes } from 'react-router-dom'
-import ExcerciseDetail from './pages/ExcerciseDetail'
+import ExerciseDetail from './pages/ExerciseDetail'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -15,7 +15,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/excercise/:id' element={<ExcerciseDetail/>} />
+        <Route path='/excercise/:id' element={<ExerciseDetail/>} />
         {/* id is dynamic, dynamically rendered in the excercise detaile component */}
         </Routes>
         <Footer/>

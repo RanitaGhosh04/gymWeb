@@ -22,7 +22,7 @@ const Navbar = () => {
       <Stack
        direction='row'
        gap='40px'
-       font-size='24px'
+       fontSize='24px'
        alignItems='flex-end'
       >
         <Link style={{textDecoration:'none', color:'#3A1212' ,borderBottom:'3px solid #FF2625'}}>Home</Link>
